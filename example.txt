@@ -1,2 +1,4 @@
 welcome to telesko learning
 hello
+apple
+pinapple
