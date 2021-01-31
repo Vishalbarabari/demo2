@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    color:black;
+}
+
+html,body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.nav li {
+    display: inline;
+    font-size: large;
+}  
+.nav ul{
+    margin: 0;
+}
+.nav a {
+    display: inline-block;
+    color: seashell;
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color: rgba(255, 255, 255,.3)
+}
+.main-header{
+    background-color: rgba(0, 0, 0, .6);
+    padding-bottom: 30px;
+    background-blend-mode: multiply;
+    background-size: cover;
+
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid black;
+}
+.main-nav li
+{
+    padding: 0.5%;
+}
+.band-name
+{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+
+}
+.band-name-large
+{
+    font-size: 6em;
+}
+.content-section
+{
+margin: 1em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header
+{
+    text-align: center;
+    font: 2em;
+}
+.abt
+{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+.foot
+{
+    background-color: cornflowerblue;
+    color: cornsilk;
+    pad: .25em 0;
+}
+
+.foot-container
+{
+    display: flex;
+    align-items: center;
+}
+.foot-container ul {
+    flex-grow: 1;
+    text-align: end;
+    
+}
+.logo
+{
+    width: 50px;
+    height: 50px;
+}
